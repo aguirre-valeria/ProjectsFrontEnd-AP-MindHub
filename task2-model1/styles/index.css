@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    max-height: 100vh;
+    height: 100%;
+}
+
 header, .container-image1 {
     min-height: 400px;
     max-height: 400px;
@@ -25,7 +30,7 @@ header, .container-image1 {
 
 .image1 {
     object-fit: cover;
-    width:100vw;
+    width:100%;
     height:50vh;
 }
 
@@ -55,4 +60,14 @@ article {
 
 p {
     text-indent: 1em;
+}
+
+.img-hockey1 {
+    position: absolute;
+    z-index: -100;
+    max-width: 100vw;
+    opacity: .4;
+    object-fit: cover;
+    width:100%;
+    height: 52vh;
 }
