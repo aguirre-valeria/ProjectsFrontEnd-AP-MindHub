@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-height: 100vh;
+    height: 100vh;
+}
+
+header, .container-image1 {
+    min-height: 400px;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.logo, .title, nav {
+    position: absolute;
+}
+
+.logo {
+    top: 350px;
+    right: 2.5rem;
+}
+
+.logo {
+    width: 100px;
+}
+
+.image1 {
+    object-fit: cover;
+    width:100vw;
+    height:50vh;
+}
+
+.title {
+    font-size: 3.5em;
+}
+
+.sub-title {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: .25rem;
+}
+
+nav {
+    top: 440px;
+}
+
+nav > a {
+    display: block;
+    padding: .75rem 1rem 2rem;
+}
+
+.info-contact {
+    padding: .75rem 1rem .75rem 9rem;
+}
+
+.info-contact > p {
+    padding: .5rem;
+}
+
+.img-hockey3 {
+    position: absolute;
+    z-index: -100;
+    max-width: 100vw;
+    opacity: .4;
+    object-fit: cover;
+    width:100%;
+    height: 52vh;
+}
